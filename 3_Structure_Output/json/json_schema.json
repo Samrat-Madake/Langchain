@@ -1,0 +1,15 @@
+{
+    "title": "Review Analysis Schema",
+    "description": "Schema for analyzing product reviews",
+    "type": "object",
+    "properties": {
+        "name" : {
+            "type": "string",
+            "description": "The name of the product being reviewed"
+        },
+        "age": {
+            "type": "integer",
+            "description": "The age of the reviewer"
+        }
+    }
+}
